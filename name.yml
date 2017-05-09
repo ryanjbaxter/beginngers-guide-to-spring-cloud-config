@@ -1,6 +1,3 @@
-spring:
-  application:
-    name: name
 server:
   port: 8080
   
