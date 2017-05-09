@@ -1,1 +1,2 @@
 greeting: Hello
+server.port: 9090
