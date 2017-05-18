@@ -1,6 +1,4 @@
-greeting: Hello
 server:
   port: 9090
-spring:
-  application:
-    name: greeting
+  
+  greeting: Hello
