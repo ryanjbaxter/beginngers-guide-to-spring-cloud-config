@@ -2,3 +2,10 @@ server:
   port: 7070
   
 name: Ryan
+names:
+  - Ryan
+  - Dave
+  - Spencer
+  - Jon
+  - Marcin
+  - Adrian
