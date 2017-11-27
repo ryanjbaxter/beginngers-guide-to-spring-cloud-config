@@ -5,7 +5,9 @@ spring:
       - id: name
         uri: lb://name
         predicates:
-        - Path=/name/**
+        - Path=/name/{segment}
+        filters:
+        - SetPath=/{segment}
       - id: greeting
         uri: lb://greeting
         predicates:
