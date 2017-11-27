@@ -7,6 +7,6 @@ spring:
         predicates:
         - Path=/greeting/**
       - id: name
-        uri: lb://name
+        uri: lb://name/**
         predicates:
         - Path=/name/**
