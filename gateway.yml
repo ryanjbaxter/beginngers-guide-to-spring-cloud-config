@@ -2,11 +2,11 @@ spring:
   cloud:
     gateway:
       routes:
+      - id: name
+        uri: lb://name
+        predicates:
+        - Path=/name/**
       - id: greeting
         uri: lb://greeting
         predicates:
         - Path=/greeting/**
-      - id: name
-        uri: lb://name/**
-        predicates:
-        - Path=/name/**
